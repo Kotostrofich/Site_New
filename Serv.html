@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+
+
+<html lang="en">
+	<head> 
+		<meta charset="UTF-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title> KotoCalculator  </title>
+		<link rel="stylesheet" href="stil.css">
+	</head>
+	<body>
+		<div id="calculator">
+			<input id="display" readonly>
+			<input id="col" readonly>
+			<div id="keys">
+				<button onclick="ClearDisplay()" class="C-op" > С</button>
+				<button onclick="Operater('+')" class="oper"> +</button>
+				<button onclick="Operater('-')" class="oper"> -</button>
+				<button onclick="Dife()" class="oper">± </button>
+				<button onclick="Digit('7')"  > 7</button>
+				<button onclick="Digit('8')"> 8</button>
+				<button onclick="Digit('9')"> 9</button>
+				<button onclick="Operater('*')" class="oper"> *</button>
+				<button onclick="Digit('4')"> 4</button>
+				<button onclick="Digit('5')"> 5</button>
+				<button onclick="Digit('6')"> 6</button>
+				<button onclick="Operater('/')" class="oper"> /</button>
+				<button onclick="Digit('1')"> 1</button>
+				<button onclick="Digit('2')"> 2</button>
+				<button onclick="Digit('3')"> 3</button>
+				<button onclick="Operater('%')" class="oper"> %</button>
+				<button onclick="Dote('.')" class="oper">.</button>
+				<button onclick="Digit('0')" > 0</button>
+				<button onclick="destroy()" class="oper" >⌫</button>
+				<button onclick="calculate()" class="oper">=</button>
+			</div>
+		</div>
+		<script src="func.js"> </script>
+	</body>
+
+</html>
